@@ -18,13 +18,13 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .outerContainer {
-    margin-top:5px;
-    max-height: 620px;
-    height: 100vh;
+   position: fixed;
+    max-height:100%;
   }
 
   .container {
-    width: 100%;
+    width:330px;
+    border-radius: 0px;
     height: 100%;
   }
 }
